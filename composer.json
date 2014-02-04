@@ -1,0 +1,20 @@
+{
+	"name": "silverstripe-labs/page-todo",
+	"description": "Adds a simple 'ToDo' text box to every page, editable through the CMS interface.
+		These todo entries can be tracked across pages by a new report showing all pages
+		with pending todos. This is a very simple module, it is not designed for sophisticated
+		task tracking, multiple authors etc - in fact, it doesn't even have checkboxes:
+		To finish a todo entry, simply remove the line of text from the textbox.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe-labs", "page-todo"],
+	"authors": [
+	{
+		"name": "Ingo Schommer",
+		"email": "ingo@silverstripe.com"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "3.*"
+	}
+}
