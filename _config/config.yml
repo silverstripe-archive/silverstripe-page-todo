@@ -1,0 +1,8 @@
+---
+Name: todoextension
+After: 'framework/*','cms/*'
+---
+
+SiteTree:
+  extensions:
+    - SiteTreePageTodoExtension
