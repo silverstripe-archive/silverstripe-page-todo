@@ -1,6 +1,6 @@
 {
   "name": "silverstripe-labs/silverstripe-page-todo",
-  "description": "Fork of old todo code used in Silverstripe 2.4 updated for 3.1",
+  "description": "Fork of old todo code used in Silverstripe 2.4 updated for 4.0",
   "type": "silverstripe-module",
   "keywords": ["silverstripe", "extension"],
   "license": "BSD-3-Clause",
