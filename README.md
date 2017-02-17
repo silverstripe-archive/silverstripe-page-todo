@@ -10,7 +10,7 @@ To finish a todo entry, simply remove the line of text from the textbox.
 
 ## Requirements ##
 
- * SilverStripe 3.1 or newer
+ * SilverStripe 4 or newer
 
 ## Maintainers ##
 

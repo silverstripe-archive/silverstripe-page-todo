@@ -5,4 +5,4 @@ After: 'framework/*','cms/*'
 
 SiteTree:
   extensions:
-    - SiteTreePageTodoExtension
+    - Silverstripe\ToDo\Extension
