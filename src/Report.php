@@ -3,6 +3,7 @@
 namespace Silverstripe\ToDo;
 
 use SilverStripe\Reports\Report as Base_Report;
+use SilverStripe\ORM\DataObject;
 
 /**
  * @package cms
@@ -23,7 +24,7 @@ class Report extends Base_Report
     }
 
     function sourceRecords($params = null) {
-        return DataObject::get('SiteTree', '"SiteTree"."ToDo" IS NOT NULL AND "SiteTree"."ToDo" <> \'\'', '"SiteTree"."LastEdited" DESC');
+        return DataObject::get('SilverStripe\CMS\Model\SiteTree', '"SiteTree"."ToDo" IS NOT NULL AND "SiteTree"."ToDo" <> \'\'', '"SiteTree"."LastEdited" DESC');
     }
 
     function columns() {
