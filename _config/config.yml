@@ -2,7 +2,6 @@
 Name: todoextension
 After:
   - 'framework/*'
-  - 'cms/*'
 ---
 
 SilverStripe\CMS\Model\SiteTree:
