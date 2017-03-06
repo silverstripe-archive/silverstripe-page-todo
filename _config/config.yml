@@ -1,8 +1,9 @@
 ---
 Name: todoextension
-After: 'framework/*','cms/*'
+After:
+  - 'framework/*'
 ---
 
-SiteTree:
+SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - SiteTreePageTodoExtension
+    - Silverstripe\ToDo\Extension

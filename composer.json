@@ -1,28 +1,33 @@
 {
-	"name": "silverstripe-labs/silverstripe-page-todo",
-	"description": "Fork of old todo code used in Silverstripe 2.4 updated for 3.1",
-	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "extension"],
-    "license": "BSD-3-Clause",
-	"authors": [
+  "name": "silverstripe-labs/silverstripe-page-todo",
+  "description": "Fork of old todo code used in Silverstripe 2.4 updated for 4.0",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "extension"],
+  "license": "BSD-3-Clause",
+  "authors": [
     {
       "name": "Ingo Schommer",
       "email": "ingo@silverstripe.com",
       "homepage": "http://www.silverstripe.com",
       "role": "Maintainer"
     }
-	],
-	"support": {
-		"issues": "https://github.com/silverstripe-labs/silverstripe-page-todo/issues"
-	},
-	"require": {
-		"silverstripe/framework": "3.*",
-		"silverstripe/cms": "3.*",
-		"composer/installers": "*"
-	},
-	"suggest": {
-	},
-	"extra": {
-		"installer-name": "todo"
-	}
+  ],
+  "support": {
+    "issues": "https://github.com/silverstripe-labs/silverstripe-page-todo/issues"
+  },
+  "require": {
+    "silverstripe/framework": "^4.0@dev",
+    "silverstripe/cms": "^4.0@dev",
+    "composer/installers": "*"
+  },
+    "autoload": {
+      "psr-4": {
+        "Silverstripe\\ToDo\\": "src/"
+      }
+    },
+  "suggest": {
+  },
+  "extra": {
+    "installer-name": "todo"
+  }
 }
